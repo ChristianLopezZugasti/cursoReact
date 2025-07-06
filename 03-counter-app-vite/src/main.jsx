@@ -1,16 +1,10 @@
 import React from "react";
 import ReactDOM from 'react-dom/client'
-
-
-function App() {
-  //document.createElement...
-   return (<h1> Hola Mundo!!!</h1>)  
-
-}
-
+//import   { HelloWorldApp }  from "./HelloWorldtApp";
+import { FirstdApp } from "./FirstApp";
 
 ReactDOM.createRoot( document.getElementById('root')).render(
-  <React.StrictMode>
-    <App/>
-  </React.StrictMode>
+    <React.StrictMode>
+        <FirstdApp/>
+    </React.StrictMode>
 )
