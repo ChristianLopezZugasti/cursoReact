@@ -21,7 +21,7 @@ export const FirstdApp = ({title,subtitle,name}) => {
     
     return(
         <>   
-            {getResult() }
+            {title}
             {/* <h1> {  JSON.stringify(  newMessage) } </h1> */}
             <p> Soy un subititulo</p>    
         </>
